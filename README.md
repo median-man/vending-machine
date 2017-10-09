@@ -14,7 +14,7 @@ default web browser. The page generates a QUnit report for unit testing of one f
 2. Run `npm start`
 
 ## Requirements
-* NodeJS
+* NodeJS must be installed.
 
 ## See Also
 * [Complete Beginner's Step-by-Step Tutorial](https://github.com/dwyl/learn-tdd)
