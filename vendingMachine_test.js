@@ -11,7 +11,13 @@ test('getChange(1,1) should equal [] - an empty array', () => {
 });
 
 test('getChange(215, 300) should return [50, 20, 10, 5]', function() {
-	const result = getChange(215, 300); // no change
+	const result = getChange(215, 300);
 	const expected = [50,20,10,5];
+	assert.deepEqual(result, expected);
+});
+
+test('getChange(486, 600) should return [100, 10, 2, 2]', function() {
+	const result = getChange(486, 600);
+	const expected = [100, 10, 2, 2];
 	assert.deepEqual(result, expected);
 });
