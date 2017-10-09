@@ -4,7 +4,8 @@
   "description": "An app which simulates a vending machine. Written as a practice for learning TDD.",
   "main": "index.html",
   "scripts": {
-    "test": "start chrome index.html"
+	"test": "start chrome index.html",
+	"start": "start chrome index.html"
   },
   "author": "John Desrosiers",
   "license": "UNLICENSED",
