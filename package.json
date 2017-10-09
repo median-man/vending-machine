@@ -4,8 +4,8 @@
   "description": "An app which simulates a vending machine. Written as a practice for learning TDD.",
   "main": "index.html",
   "scripts": {
-	"test": "start chrome index.html",
-	"start": "start chrome index.html"
+    "test": "live-server --port=8080",
+    "start": "live-server --port=8080"
   },
   "author": "John Desrosiers",
   "license": "UNLICENSED",
@@ -16,6 +16,7 @@
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-node": "^5.2.0",
     "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-standard": "^3.0.1"
+    "eslint-plugin-standard": "^3.0.1",
+    "live-server": "^1.2.0"
   }
 }
