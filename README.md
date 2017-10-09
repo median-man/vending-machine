@@ -5,6 +5,8 @@ Contains a function for making change for a vending machine based upon British c
 Running `npm start` starts an instance of live-server and opens index.html in the
 default web browser. The page generates a QUnit report for unit testing of one function--getChange() found in change.js.
 
+Work through the tutorial for yourself. Visit [Complete Beginner's Step-by-Step Tutorial](https://github.com/dwyl/learn-tdd) by [dwyl](https://github.com/dwyl).
+
 ## Installation
 1. Clone the [repository](https://github.com/median-man/vending-machine.git)
 2. Run `npm install`
